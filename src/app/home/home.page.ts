@@ -14,4 +14,9 @@ export class HomePage {
   onChangeText(){
     this.text = 'Changed! ' + this.num++;
   }
+
+  reset(){
+    this.text = "Default Starting Text";
+    this.num = 0;
+  }
 }
